@@ -1,0 +1,26 @@
+{
+  "comment": "use this file to set values specific for locale 'de'",
+  "myTest": "hallo",
+  "myPayArray": [
+    "Bitte zahlen",
+    "[|Ober] Zahlen bitte",
+    "Die Rechnung bitte",
+    "[|Herr Ober] [Ich [will|möchte] [|jetzt] [|bitte|gerne]] zahlen mit {paymentType}"
+  ],
+  "PaymentTypeArray": [
+    "bar",
+    "master",
+    "bar",
+    "amex",
+    "",
+    null,
+    "scheck",
+    "paypal",
+    "bitcoin",
+    {
+      "value": "Visa",
+      "id": "visa",
+      "synonyms": ["Visa", "Visa", "${myTest}", "Visa Karte", "Meine Visa Karte"]
+    }
+  ]
+}

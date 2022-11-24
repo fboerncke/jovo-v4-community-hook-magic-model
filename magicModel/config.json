@@ -1,0 +1,19 @@
+{
+  "comment": "use this file to set global settings that can be used in all voice models",
+  "MyTestString": "some test string",
+  "MyTestArray": ["ALPHA", "BETA", "GAMMA"],
+  "MyTestSpintaxArray": "Help [ | me] [ | please]",
+  "PaymentTypeArray": [
+    "cash",
+    "master",
+    "amex",
+    "cheque",
+    "paypal",
+    "bitcoin",
+    {
+      "value": "Visa",
+      "id": "visa",
+      "synonyms": ["Visa", "Visa Card", "My Visa Card"]
+    }
+  ]
+}

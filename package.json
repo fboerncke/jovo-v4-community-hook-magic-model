@@ -1,0 +1,73 @@
+{
+  "name": "jovo-v4-community-hook-magic-model",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Voice Model maintenance made easy for Jovo",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest --testPathPattern=test ",
+    "eslint": "eslint"
+  },
+  "author": "Frank Börncke",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/fboerncke/jovo-v4-community-hook-magic-model#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fboerncke/jovo-v4-community-hook-magic-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fboerncke/jovo-v4-community-hook-magic-model/issues"
+  },
+  "dependencies": {
+    "@jovotech/framework": "^4.5.0",
+    "@jovotech/cli-command-build": "^4.1.8",
+    "jexl": "^2.3.0",
+    "node-spintax": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/jest-when": "^3.5.2",
+    "@types/jexl": "^2.3.1",
+    "@types/node": "^13.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "jest": "^27.3.1",
+    "jest-when": "^3.5.2",
+    "prettier": "2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "typedoc": "^0.17.4",
+    "typescript": "^4.2.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testURL": "http://localhost/",
+    "testMatch": [
+      "<rootDir>/test/**"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  },
+  "files": [
+    "dist/src/**/*"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "jovo",
+    "hook",
+    "voice",
+    "model",
+    "generator"
+  ]
+}
